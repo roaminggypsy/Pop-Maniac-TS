@@ -15,4 +15,5 @@ if(process.env.NODE_ENV === 'production') {
   });
 }
 
+// note
 app.listen(PORT,() => console.log(`hosting @${PORT}`));
